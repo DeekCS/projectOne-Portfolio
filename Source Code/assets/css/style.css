@@ -228,8 +228,11 @@ body>main>div>div>div>div>h4>span.kayo-work
 
 }
 
-@media (max-width:768px) {
-   
+@media (max-width:540px) {
+   .banner-sub-heading {
+       font-size: 2em !important;
+      
+   }
 }
 
 /* about */
@@ -540,10 +543,15 @@ body>main>div>div>div>div>h4>span.kayo-work
         .info span {
             font-size: 0.7em;
         }
+        .banner-sub-heading {
+            font-size: 1em !important;
+        }
+        
 
 
 
     }
+    
         
     
         
@@ -647,6 +655,19 @@ body>main>div>div>div>div>h4>span.kayo-work
     .portfolio-sorting li {
         width: 40%;
     }
+    .banner-sub-heading {
+        font-size: 1.3em !important;
+        font-weight: 700;
+        line-height: 1.3rem;
+        margin-bottom: 40px;
+    }
+    .banner-heading {
+        font-size: 0.8em;
+        line-height: 30px;
+        margin-bottom: 20px;
+    }
+
+    
    
     
 }
