@@ -8,6 +8,9 @@
     font-family: 'Agustina 400';
     src: url('../fonts/Agutina\ 400.otf');
 }
+html{
+    scroll-behavior: smooth;
+}
 
 .navbar-brand {
     color:#551A8B;
@@ -82,9 +85,9 @@
     background: #1B242F;
     
 }
-#skills>div {
+/* #skills>div {
     padding: 120px;
-}
+} */
 /* .banner img{
     
         object-fit: cover;
@@ -109,18 +112,19 @@
     text-transform: uppercase;
     font-size: 1.2em;
 }
-body>div>div>div>div>div.banner-heading>img {
-    width: 40px;
-    height: auto;
+body>main>div>div>div>div>div.banner-heading>img {
+     width: 40px;
+     height: auto;
 }
 
-body>div>div>div>div>h4>span.kayo-work {
-    margin: 0;
-    font-weight: 700;
-    text-transform: uppercase;
-    font-size: 20px;
-    color: #BBB;
-    text-align: left;
+body>main>div>div>div>div>h4>span.kayo-work
+{
+       margin: 0;
+       font-weight: 700;
+       text-transform: uppercase;
+       font-size: 20px;
+       color: #BBB;
+       text-align: left;
 }
 
 .kayo-work-description {
@@ -396,19 +400,27 @@ body>div>div>div>div>h4>span.kayo-work {
     
     @media (max-width:768px) {
         .skills-content {
-            flex-direction: column;
+            flex-direction: row;
             width: 100%;
         }
         .skills-content .column {
             width: 100%;
             /* margin: 0.5rem 0; */
         }
+
         .lang-tech {
-            font-size: 20px;
+            font-size: 1em;
         }
         .text-intro h3 {
             font-size: 1.5em;
         }
+         .about-img-floid {
+             display: none;
+         }
+         .overlay2 {
+             padding:80px 0;
+         }
+
         
     }
     @media screen and (max-width: 600px) {
@@ -426,6 +438,9 @@ body>div>div>div>div>h4>span.kayo-work {
          .portfolio-sorting li {
             width: 45%;
          }
+          .about-img-floid {
+              display: none;
+          }
          
     }
     @media screen and (max-width: 400px) {
@@ -450,8 +465,38 @@ body>div>div>div>div>h4>span.kayo-work {
         .text-intro h3 {
                 font-size: 22px;
         }
+        .about-img-floid{
+             display: none;
+        }
 
     }
+    @media screen and (max-width: 320px) {
+        .about-img {
+           display: none;
+        }
+        .container-flex {
+            padding: 0;
+        }
+       
+        .works-content{
+            padding:0;
+        }
+        #skills>div>h3,
+        #services>div>div>h3,
+        .overlay h3 {
+            font-size: 1.5em; 
+        }
+        .portfolio-sorting li {
+            width: 45% !important;
+        }
+        .overlay2{
+            padding: 0;
+        }
+
+
+    }
+        
+    
         
         
     
@@ -510,13 +555,24 @@ body>div>div>div>div>h4>span.kayo-work {
         width: 25%;
     } */
     .serv-content{
-        flex-direction: column;
+        flex-direction: row;
 
     }
     .serv-content .card {
-        width: 100%;
         margin-bottom: 1rem;
     }
+    .about-img-floid {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 2000px) {
+     .about-img-floid {
+         display: none;
+     }
+
+
 
 }
 
@@ -529,11 +585,11 @@ body>div>div>div>div>h4>span.kayo-work {
     
 }
 
-@media screen and (max-width: 600px)  {
+/* @media screen and (max-width: 600px)  {
     
    
     
-}
+} */
 
 @media screen and (max-width: 400px)  {
     .card-imG {
@@ -615,12 +671,21 @@ body>div>div>div>div>h4>span.kayo-work {
     width: 10%;
 }
 
-@media screen and (max-width: 1044px) {
+@media screen and (max-width: 1024px) {
     .portfolio-sorting li {
         width: 15%;
     }
+     .about-img-floid {
+         display: none;
+     }
+     .serv-content {
+         flex-direction: row;
+     }
 
 }
+
+
+
 @media screen and (max-width: 768px) {
     
     .navbar-nav .nav-item .nav-link {
@@ -636,6 +701,9 @@ body>div>div>div>div>h4>span.kayo-work {
         font-size: 18px;
         letter-spacing:0;
     }
+    .serv-content {
+        flex-direction: row;
+    }
 }
     
     @media screen and (max-width: 600px) {
@@ -646,6 +714,10 @@ body>div>div>div>div>h4>span.kayo-work {
            font-size: 18px;
            letter-spacing: 0;
        }
+        .serv-content {
+            flex-direction: column;
+        }
+     
 
         
     }
@@ -826,6 +898,7 @@ body>div>div>div>div>h4>span.kayo-work {
 
 /* footer */
 .apps-footer {
+    padding: 2rem;
     text-align: center;
     color: #9ba0a2;
     background: #1b2838;
@@ -844,7 +917,59 @@ body>footer>div>div>ul {
     font-size: 2em;
 }
 
+.apps-short-info h3 {
+        color: #E31B6D;
+        font-size: 25px;
+        font-family: 'Agustina 400';
+        font-weight: 700;
+        letter-spacing: 0.1em;
 
+}
+
+.fa-facebook-f:hover {
+    color: #3b5998;
+}
+.fa-instagram:hover {
+    color: #e1306c;
+}
+.fa-linkedin-in:hover {
+    color: #0077B5;
+}
+.fa-github:hover {
+    color: #AD5C51;
+}
+
+/* scroll to top */
+/*--------------------
+ Back to Top Button
+---------------------*/
+.scrollToTopBtn {
+    background-color: #850f11;
+    border: none;
+    border-radius: 50%;
+    color: white;
+    cursor: pointer;
+    font-size: 30px;
+    line-height: 48px;
+    width: 48px;
+    /* place it at the bottom right corner */
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    /* keep it at the top of everything else */
+    z-index: 100;
+    /* hide with opacity */
+    opacity: 0;
+    /* also add a translate effect */
+    transform: translateY(100px);
+    /* and a transition */
+    transition: all .5s ease
+}
+
+.showBtn {
+    opacity: 1;
+    transform: translateY(0)
+}
 
 
 
