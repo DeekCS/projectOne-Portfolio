@@ -40,15 +40,18 @@ html{
 
 .navbar-nav .nav-item .nav-link {
     padding: 1.1em 1em !important;
-    font-size: 120%;
+    font-size: 1em;
     font-weight: 500;
     letter-spacing: 1px;
     color: #fff;
-    font-family: 'Gothic A1', sans-serif;
+ font-family: 'Montserrat',
+ sans-serif;
 }
 
 .navbar-nav .nav-item .nav-link:hover {
     color: #E31B6D;
+    border-bottom: 2px solid #E31B6D;
+     transition: all 0.25s ease-in-out 0s;
 }
 
 .navbar-expand-md .navbar-nav .dropdown-menu {
@@ -97,7 +100,16 @@ html{
 
 .banner-text {
     padding: 200px 0 150px 0;
+ 
 }
+
+.button2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
 
 .banner-heading {
    font-family: 'Montserrat',
@@ -151,14 +163,112 @@ body>main>div>div>div>div>h4>span.kayo-work
 }
 
 .btn-banner {
-    padding: 5px 20px;
-    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -o-border-radius: 2px;
+    -ms-border-radius: 2px;
+    border-radius: 2px;
+    margin: 0;
+    min-width: 64px;
+    display: inline-block;
+    font-size: 14px;
     font-weight: 700;
-    line-height: 1.5;
-    text-align: center;
-    color: #fff;
     text-transform: uppercase;
+    overflow: hidden;
+    outline: none;
+    text-decoration: none;
+    text-align: center;
+    color: #333;
+    background-color: #FFF;
+    padding: 17px 35px 15px;
+    -webkit-transition: all 0.5s ease-in-out 0s;
+    -moz-transition: all 0.5s ease-in-out 0s;
+    -o-transition: all 0.5s ease-in-out 0s;
+    -ms-transition: all 0.5s ease-in-out 0s;
+    transition: all 0.5s ease-in-out 0s;
+    /* padding-right: 10px;
+    
+    padding-left: 10px; */
+    margin-left: 1rem;
 }
+    .btn1{
+        background-color: #E31B6D;
+        color: #fff !important;
+    }
+    .btn1:hover{
+        background-color: #fff;
+        color: #000 !important;
+    }
+    .btn2{
+        background-color: #fff;
+        color: #000;
+    }
+    .btn2:hover{
+        background-color: #E31B6D;
+        color: #fff;
+    }
+    .btn3{
+        background-color: #fff;
+        color: #E31B6D;
+    }
+    .btn3:hover{
+        background-color: #E31B6D;
+        color: #fff;
+    }
+    .btn4{
+        background-color: #fff;
+        color: #E31B6D;
+    }
+    .btn4:hover{
+        background-color: #E31B6D;
+        color: #fff;
+    }
+    .btn5{
+        background-color: #fff;
+        color: #E31B6D;
+    }
+    .btn5:hover{
+        background-color: #E31B6D;
+        color: #fff;
+    }
+    .btn6{
+        background-color: #fff;
+        color: #E31B6D;
+    }
+    .btn6:hover{
+        background-color: #E31B6D;
+        color: #fff;
+    }
+    .btn7{
+        background-color: #fff;
+        color: #E31B6D;
+    }
+    .btn7:hover{
+        background-color: #E31B6D;
+        color: #fff;
+    }
+    .btn8{
+        background-color: #fff;
+        color: #E31B6D;
+    }
+    .btn8:hover{
+        background-color: #E31B6D;
+        color: #fff;
+    }
+    .btn9{
+        background-color: #fff;
+        color: #E31B6D;
+    }
+    .btn9:hover{
+        background-color: #E31B6D;
+        color: #fff
+    }
+    .btn2:hover {
+        background-color: #E31B6D;
+        color: #fff !important;
+    }
 /* 
 .text-intro {
     width: 90%;
