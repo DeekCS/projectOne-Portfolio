@@ -578,6 +578,9 @@ body>main>div>div>div>div>h4>span.kayo-work
         .about-img-floid{
              display: none;
         }
+        .btn-banner {
+            padding: 11px 22px 11px;
+        }
 
     }
     @media screen and (max-width: 320px) {
@@ -601,6 +604,12 @@ body>main>div>div>div>div>h4>span.kayo-work
         }
         .overlay2{
             padding: 0;
+        }
+        .btn-banner {
+            font-size:12px;
+            font-weight: 600;
+            padding: 10px 14px 10px;
+            margin-left: 0.5rem;
         }
 
 
