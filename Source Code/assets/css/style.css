@@ -611,6 +611,19 @@ body>main>div>div>div>div>h4>span.kayo-work
             padding: 10px 14px 10px;
             margin-left: 0.5rem;
         }
+        .serv-content .card i {
+            font-size: 31px;
+        }
+        .serv-content .card .text {
+            font-size: 1.2em;
+        }
+        .info h3{
+           font-size: 1.2em; 
+        }
+        .info span {
+            font-size: 0.7em;
+        }
+
 
 
     }
