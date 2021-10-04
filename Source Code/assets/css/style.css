@@ -66,17 +66,10 @@ html{
 .banner {
     background-image: url('../images/work.jpg');
     background-color: rgba(0, 0, 0, 0.4);
-    /* opacity: 0.9; */
-    /* text-align: lef; */
-    /* color: #fff; */
-    /* background: black; */
     overflow: hidden;
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
 }
 
@@ -165,10 +158,6 @@ body>main>div>div>div>div>h4>span.kayo-work
 .btn-banner {
     cursor: pointer;
     border: none;
-    -webkit-border-radius: 2px;
-    -moz-border-radius: 2px;
-    -o-border-radius: 2px;
-    -ms-border-radius: 2px;
     border-radius: 2px;
     margin: 0;
     min-width: 64px;
@@ -183,14 +172,7 @@ body>main>div>div>div>div>h4>span.kayo-work
     color: #333;
     background-color: #FFF;
     padding: 17px 35px 15px;
-    -webkit-transition: all 0.5s ease-in-out 0s;
-    -moz-transition: all 0.5s ease-in-out 0s;
-    -o-transition: all 0.5s ease-in-out 0s;
-    -ms-transition: all 0.5s ease-in-out 0s;
     transition: all 0.5s ease-in-out 0s;
-    /* padding-right: 10px;
-    
-    padding-left: 10px; */
     margin-left: 1rem;
 }
     .btn1{
@@ -209,74 +191,7 @@ body>main>div>div>div>div>h4>span.kayo-work
         background-color: #E31B6D;
         color: #fff;
     }
-    .btn3{
-        background-color: #fff;
-        color: #E31B6D;
-    }
-    .btn3:hover{
-        background-color: #E31B6D;
-        color: #fff;
-    }
-    .btn4{
-        background-color: #fff;
-        color: #E31B6D;
-    }
-    .btn4:hover{
-        background-color: #E31B6D;
-        color: #fff;
-    }
-    .btn5{
-        background-color: #fff;
-        color: #E31B6D;
-    }
-    .btn5:hover{
-        background-color: #E31B6D;
-        color: #fff;
-    }
-    .btn6{
-        background-color: #fff;
-        color: #E31B6D;
-    }
-    .btn6:hover{
-        background-color: #E31B6D;
-        color: #fff;
-    }
-    .btn7{
-        background-color: #fff;
-        color: #E31B6D;
-    }
-    .btn7:hover{
-        background-color: #E31B6D;
-        color: #fff;
-    }
-    .btn8{
-        background-color: #fff;
-        color: #E31B6D;
-    }
-    .btn8:hover{
-        background-color: #E31B6D;
-        color: #fff;
-    }
-    .btn9{
-        background-color: #fff;
-        color: #E31B6D;
-    }
-    .btn9:hover{
-        background-color: #E31B6D;
-        color: #fff
-    }
-    .btn2:hover {
-        background-color: #E31B6D;
-        color: #fff !important;
-    }
-/* 
-.text-intro {
-    width: 90%;
-    margin: auto;
-    text-align: center;
-    padding-top: 30px;
-}
- */
+
 
 /* mobile view */
 @media (max-width:500px) {
@@ -314,16 +229,7 @@ body>main>div>div>div>div>h4>span.kayo-work
 }
 
 @media (max-width:768px) {
-    .banner-text {
-        padding: 150px 0 150px 0;
-    }
-
-    .banner-sub-heading {
-        font-size: 23px;
-        font-weight: 200;
-        line-height: 39px;
-        margin-bottom: 40px;
-    }
+   
 }
 
 /* about */
@@ -530,6 +436,17 @@ body>main>div>div>div>div>h4>span.kayo-work
          .overlay2 {
              padding:80px 0;
          }
+          .banner-text {
+              padding: 150px 0 150px 0;
+          }
+
+          .banner-sub-heading {
+              font-size: 3em;
+              font-weight: 700;
+              line-height: 1rem;
+              margin-bottom: 40px;
+          }
+
 
         
     }
@@ -985,19 +902,6 @@ body>main>div>div>div>div>h4>span.kayo-work
 
 
 }
-/* 
-.contact .content .row .card {
-    background: #fff;
-    width: 25%;
-    margin: 20px;
-    padding: 25px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    box-shadow: 0 5px 25px rgb(1 1 1 / 15%);
-    border-radius: 10px;
-} */
 
 .reveal.active {
     transform: translateY(0);
