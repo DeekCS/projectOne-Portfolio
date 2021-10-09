@@ -206,24 +206,24 @@ body>main>div>div>div>div>h4>span.kayo-work
 
 
 .about-text {
-      line-height: 24px;
-      letter-spacing: 0.7px;
-      padding-bottom: 15px;
-      border-bottom: 1px solid #3a4a5d;
-      margin: 24px 0 0 0;
-      font-weight: 400;
-      font-size: 14px;
-      font-style: italic;
-      color:#BBB;
+        line-height: 24px;
+        letter-spacing: 0.7px;
+        padding-bottom: 15px;
+        border-bottom: 1px solid #3a4a5d;
+        margin: 24px 0 0 0;
+        font-weight: 400;
+        font-size: 14px;
+        font-style: italic;
+        color:#BBB;
 }
 
 .text-intro h3{
-       font-size: 24px;
-       text-transform: uppercase;
-       margin: 30px 0 0 0;
-       font-weight: 700;
-       line-height: 1;
-       color:#fff;
+        font-size: 24px;
+        text-transform: uppercase;
+        margin: 30px 0 0 0;
+        font-weight: 700;
+        line-height: 1;
+        color:#fff;
 }
 
 /* end about section */
@@ -238,9 +238,6 @@ body>main>div>div>div>div>h4>span.kayo-work
     background-image: url('../images/bg1.jpg');
     background-color: rgba(0, 0, 0, 0.5);
     opacity: 1;
-    /* text-align: lef; */
-    /* color: #fff; */
-    /* background: black; */
     overflow: hidden;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -253,20 +250,10 @@ body>main>div>div>div>div>h4>span.kayo-work
 
 }
 
-.card {
-    /* padding: 20px;
-    border-radius: 10px;
-    font-weight: 700;
-    line-height: 1.5;
-    text-align: center;
-    text-transform: uppercase; */
-    
-    /*  */
-    
+.card {   
     color: #fff;
         width: calc(33% - 20px);
         height: 15rem;
-        /* background: #1B242F; */
         background: rgba(44, 62, 80, 0.8);
         text-align: center;
         border-radius: 6px;
@@ -275,29 +262,25 @@ body>main>div>div>div>div>h4>span.kayo-work
         transition: all 0.3s ease;
 }
 
-
-
 .serv-content{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
-    /* justify-content: space-between; */
-
 }
 .serv-content .card .text {
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
- .serv-content .card .box {
-     transition: all 0.3s ease;
- }
-.serv-content .card i {
-     font-size: 50px;
-     color: #E31B6D;
-     transition: color 0.3s ease;
- }
+    .serv-content .card .box {
+        transition: all 0.3s ease;
+    }
+    .serv-content .card i {
+        font-size: 50px;
+        color: #E31B6D;
+        transition: color 0.3s ease;
+    }
 
  /* services responsive */
   @media (max-width:600px) {
@@ -327,9 +310,7 @@ body>main>div>div>div>div>h4>span.kayo-work
 .overlay h3 {
     font-size: 40px;
     padding-top: 3rem;
-    
     text-transform: uppercase;
-    /* margin: 30px 0 0 0; */
     font-weight: 700;
     line-height: 1;
     color: #fff;
@@ -361,15 +342,6 @@ body>main>div>div>div>div>h4>span.kayo-work
 
 }
 
-    
-        
-        
-    
-
-
-
-
-
 /* End skills section */
 
 /* works style */
@@ -379,21 +351,14 @@ body>main>div>div>div>div>h4>span.kayo-work
 }
 
 .works-img {
-    /* width: 100%; */
-    /*  */
     background-image: url('../images/work.jpg');
     background-color: rgba(0, 0, 0, 0.5);
     opacity: 1;
-    /* text-align: lef; */
-    /* color: #fff; */
-    /* background: black; */
     overflow: hidden;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center;
     background-size: cover;
-
-
 }
 
 .card-imG {
@@ -415,10 +380,6 @@ body>main>div>div>div>div>h4>span.kayo-work
         width: 50%;
         text-align: left !important;
     }
-
-    /* .portfolio-sorting li {
-        width: 25%;
-    } */
     .serv-content{
         flex-direction: row;
 
@@ -433,12 +394,9 @@ body>main>div>div>div>div>h4>span.kayo-work
 }
 
 @media screen and (max-width: 2000px) {
-     .about-img-floid {
-         display: none;
-     }
-
-
-
+        .about-img-floid {
+            display: none;
+        }
 }
 
 @media screen and (max-width: 768px) {
