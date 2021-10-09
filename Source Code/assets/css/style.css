@@ -725,6 +725,11 @@ body>footer>div>div>ul {
 
 }
 
+.footer-social-links li:hover{
+      transition: 0.70s;
+     transform: rotate(180deg);
+}
+
 .fa-facebook-f:hover {
     color: #3b5998;
 }
