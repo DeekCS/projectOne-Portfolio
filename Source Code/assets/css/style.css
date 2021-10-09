@@ -1000,10 +1000,16 @@ body>footer>div>div>ul {
 
 
 }
-.mail, .mail:hover {
+.mail {
     text-decoration: none;
     color: #fff;
+    transition: 0.5s all ease 0s; 
 }
+ .mail:hover {
+     text-decoration: none;
+     color:#e1306c;
+     font-weight:500;
+ }
 @media screen and (max-width: 1024px) {
     .portfolio-sorting li {
         width: 15%;
