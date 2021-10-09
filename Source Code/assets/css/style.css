@@ -707,9 +707,15 @@ body>main>div>div>div>div>h4>span.kayo-work
 }
 .apps-footer .footer-top .apps-short-info {
     margin-bottom: 30px;
+    transition: all 0.5s ease-in-out 0s;
+
+
+
 }
-.apps-footer .footer-top .footer-social-links li {
+.apps-footer .footer-top .footer-social-links li a {
     padding: 0 10px;
+    
+
 }
 body>footer>div>div>ul {
     display:inline-flex;
@@ -724,10 +730,13 @@ body>footer>div>div>ul {
         letter-spacing: 0.1em;
 
 }
+.apps-short-info span {
+ font-family: 'Montserrat',
+     sans-serif;
+}
 
-.footer-social-links li:hover{
-      transition: 0.70s;
-     transform: rotate(180deg);
+.footer-social-links li a:hover{
+     transform: rotate(360deg);
 }
 
 .fa-facebook-f:hover {
