@@ -260,6 +260,8 @@ body>main>div>div>div>div>h4>span.kayo-work
         padding: 20px 25px;
         cursor: pointer;
         transition: all 0.3s ease;
+         font-family: 'Montserrat',
+         sans-serif;
 }
 
 .serv-content{
@@ -270,8 +272,10 @@ body>main>div>div>div>div>h4>span.kayo-work
 }
 .serv-content .card .text {
     font-size: 25px;
-    font-weight: 500;
+    font-weight: 700;
     margin: 10px 0 7px 0;
+    text-align: center;
+    line-height: 2;
 }
     .serv-content .card .box {
         transition: all 0.3s ease;
@@ -308,13 +312,14 @@ body>main>div>div>div>div>h4>span.kayo-work
 #skills>div>h3,
 #services>div>div>h3,
 .overlay h3 {
-    font-size: 40px;
     padding-top: 3rem;
     text-transform: uppercase;
     font-weight: 700;
     line-height: 1;
     color: #fff;
     text-align: center;
+     font-family: 'Montserrat',
+     sans-serif;
 }
 .lang-tech {
     border: 0.3rem solid #e31b6d;
@@ -351,7 +356,7 @@ body>main>div>div>div>div>h4>span.kayo-work
 }
 
 .works-img {
-    background-image: url('../images/work.jpg');
+    background-image: url('../images/bg3.jpg');
     background-color: rgba(0, 0, 0, 0.5);
     opacity: 1;
     overflow: hidden;
@@ -458,31 +463,52 @@ body>main>div>div>div>div>h4>span.kayo-work
 }
 
 .overlay-hover {
-      position: absolute;
-      top: 0;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      height: 100%;
-      width: 100%;
-      opacity: 0;
-      transition: .5s ease;
-      background-color: #2F3E4C;
+  background: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+     font-family: 'Montserrat',
+     sans-serif;
 }
 .card-imG:hover .overlay-hover {
-    opacity: 0.5;
+    opacity: 1;
 }
 
 .text-hover {
-    color: white;
-    font-size: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
+       font-family: 'Montserrat',
+       sans-serif;
+  position: absolute;
+  text-align: center;
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  /* -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s; */
+  /* transition: all 0.3s ease-in-out 0s; */
+    transform: translateX(-50%) translateY(-50%);
 }
 
+.text-hover, .text-hover a {
+      top: 50%;
+      left: 50%;
+      opacity: 1;
+      color: #fff;
+      text-decoration: none;
+        
+}
 
 
 /* End Works Style */
