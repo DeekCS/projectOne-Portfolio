@@ -989,6 +989,7 @@ body>footer>div>div>ul {
     .info span {
         font-size: 0.7em;
     }
+   
 
     .banner-sub-heading {
         font-size: 1em !important;
@@ -998,6 +999,10 @@ body>footer>div>div>ul {
 
 
 
+}
+.mail, .mail:hover {
+    text-decoration: none;
+    color: #fff;
 }
 @media screen and (max-width: 1024px) {
     .portfolio-sorting li {
