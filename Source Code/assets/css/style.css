@@ -81,19 +81,10 @@ html{
     background: #1B242F;
     
 }
-/* #skills>div {
-    padding: 120px;
-} */
-/* .banner img{
-    
-        object-fit: cover;
-        opacity: 0.4;
-    
-} */
 
 .banner-text {
     padding: 200px 0 150px 0;
- 
+
 }
 
 .button2 {
@@ -107,10 +98,7 @@ html{
 .banner-heading {
    font-family: 'Montserrat',
    sans-serif;
-    /* font-size: 1.1em; */
-    /* font-weight: 700; */
     line-height: 100px;
-    /* margin-bottom: 30px; */
     color: #BBB;
     margin: 0;
     font-weight: 700;
@@ -193,47 +181,6 @@ body>main>div>div>div>div>h4>span.kayo-work
     }
 
 
-/* mobile view */
-@media (max-width:500px) {
-    .navbar-nav {
-        background-color: #000;
-        border-top: 3px solid #E31B6D;
-        color: #fff;
-        z-index: 1;
-        margin-top: 5px;
-    }
-
-    .navbar-nav .nav-item .nav-link {
-        padding: 0.7em 1em !important;
-        font-size: 100%;
-        font-weight: 500;
-    }
-
-    .banner-text {
-        padding: 150px 0 150px 0;
-    }
-
-    .banner-heading {
-        font-size: 30px;
-        line-height: 30px;
-        margin-bottom: 20px;
-    }
-
-    .banner-sub-heading {
-        font-size: 10px;
-        font-weight: 200;
-        line-height: 10px;
-        margin-bottom: 40px;
-    }
-
-}
-
-@media (max-width:540px) {
-   .banner-sub-heading {
-       font-size: 2em !important;
-      
-   }
-}
 
 /* about */
 
@@ -414,145 +361,6 @@ body>main>div>div>div>div>h4>span.kayo-work
 
 }
 
-/* Skills Responsive */
-
-    
-    @media (max-width:768px) {
-        .skills-content {
-            flex-direction: row;
-            width: 100%;
-        }
-        .skills-content .column {
-            width: 100%;
-            /* margin: 0.5rem 0; */
-        }
-
-        .lang-tech {
-            font-size: 1em;
-        }
-        .text-intro h3 {
-            font-size: 1.5em;
-        }
-         .about-img-floid {
-             display: none;
-         }
-         .overlay2 {
-             padding:80px 0;
-         }
-          .banner-text {
-              padding: 150px 0 150px 0;
-          }
-
-          .banner-sub-heading {
-              font-size: 3em;
-              font-weight: 700;
-              line-height: 1rem;
-              margin-bottom: 40px;
-          }
-
-
-        
-    }
-    @media screen and (max-width: 600px) {
-        .skills-content {
-            flex-direction: column;
-            width: 100%;
-        }
-        .skills-content .column {
-            width: 100%;
-            margin: 0.5rem 0;
-        }
-        .card-imG {
-            width: 100%;
-        }
-         .portfolio-sorting li {
-            width: 45%;
-         }
-          .about-img-floid {
-              display: none;
-          }
-         
-    }
-    @media screen and (max-width: 400px) {
-        .skills-content {
-            flex-direction: column;
-            width: 100%;
-        }
-        .skills-content .column {
-            width: 100%;
-            margin: 0.5rem 0;
-        }
-        .lang-tech{
-                border: 3px solid #e31b6d;
-                    font-size: 1em;
-                        padding: 10px;
-
-        }
-        .text-intro {
-                margin-top: 1rem;
-                text-align: left;
-        }
-        .text-intro h3 {
-                font-size: 22px;
-        }
-        .about-img-floid{
-             display: none;
-        }
-        .btn-banner {
-            padding: 11px 22px 11px;
-        }
-
-    }
-    @media screen and (max-width: 320px) {
-        .about-img {
-           display: none;
-        }
-        .container-flex {
-            padding: 0;
-        }
-       
-        .works-content{
-            padding:0;
-        }
-        #skills>div>h3,
-        #services>div>div>h3,
-        .overlay h3 {
-            font-size: 1.5em; 
-        }
-        .portfolio-sorting li {
-            width: 45% !important;
-        }
-        .overlay2{
-            padding: 0;
-        }
-        .btn-banner {
-            font-size:12px;
-            font-weight: 600;
-            padding: 10px 14px 10px;
-            margin-left: 0.5rem;
-        }
-        .serv-content .card i {
-            font-size: 31px;
-        }
-        .serv-content .card .text {
-            font-size: 1.2em;
-        }
-        .info h3{
-           font-size: 1.2em; 
-        }
-        .info span {
-            font-size: 0.7em;
-        }
-        .banner-sub-heading {
-            font-size: 1em !important;
-        }
-        
-
-
-
-    }
-    
-        
     
         
         
@@ -741,56 +549,6 @@ body>main>div>div>div>div>h4>span.kayo-work
     width: 10%;
 }
 
-@media screen and (max-width: 1024px) {
-    .portfolio-sorting li {
-        width: 15%;
-    }
-     .about-img-floid {
-         display: none;
-     }
-     .serv-content {
-         flex-direction: row;
-     }
-
-}
-
-
-
-@media screen and (max-width: 768px) {
-    
-    .navbar-nav .nav-item .nav-link {
-            padding: 1.1em 0.3em !important;
-    }
-    .text-intro {
-        width: 100%;
-    }
-    .container-flex{
-        justify-content: center;
-    }
-    .about-text{
-        font-size: 18px;
-        letter-spacing:0;
-    }
-    .serv-content {
-        flex-direction: row;
-    }
-}
-    
-    @media screen and (max-width: 600px) {
-       .portfolio-sorting li {
-           width: 40%;
-       }
-       .about-text {
-           font-size: 18px;
-           letter-spacing: 0;
-       }
-        .serv-content {
-            flex-direction: column;
-        }
-     
-
-        
-    }
 
 
 .portfolio-sorting li:hover{
@@ -1030,3 +788,265 @@ body>footer>div>div>ul {
 
 
 
+/* mobile view */
+@media (max-width:500px) {
+    .navbar-nav {
+        background-color: #000;
+        border-top: 3px solid #E31B6D;
+        color: #fff;
+        z-index: 1;
+        margin-top: 5px;
+    }
+
+    .navbar-nav .nav-item .nav-link {
+        padding: 0.7em 1em !important;
+        font-size: 100%;
+        font-weight: 500;
+    }
+
+    .banner-text {
+        padding: 150px 0 150px 0;
+    }
+
+    .banner-heading {
+        font-size: 30px;
+        line-height: 30px;
+        margin-bottom: 20px;
+    }
+
+    .banner-sub-heading {
+        font-size: 10px;
+        font-weight: 200;
+        line-height: 10px;
+        margin-bottom: 40px;
+    }
+
+}
+
+@media (max-width:540px) {
+    .banner-sub-heading {
+        font-size: 2em !important;
+
+    }
+}
+/* Skills Responsive */
+
+
+@media (max-width:768px) {
+    .skills-content {
+        flex-direction: row;
+        width: 100%;
+    }
+    
+
+    .skills-content .column {
+        width: 100%;
+        /* margin: 0.5rem 0; */
+    }
+
+    .lang-tech {
+        font-size: 1em;
+    }
+
+    .text-intro h3 {
+        font-size: 1.5em;
+    }
+
+    .about-img-floid {
+        display: none;
+    }
+
+    .overlay2 {
+        padding: 0;
+    }
+
+    .banner-text {
+        padding: 150px 0 150px 0;
+    }
+
+    .banner-sub-heading {
+        font-size: 3em;
+        font-weight: 700;
+        line-height: 2rem;
+        margin-bottom: 40px;
+    }
+
+
+
+}
+
+@media screen and (max-width: 600px) {
+    .skills-content {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .skills-content .column {
+        width: 100%;
+        margin: 0.5rem 0;
+    }
+
+    .card-imG {
+        width: 100%;
+    }
+
+    .portfolio-sorting li {
+        width: 45%;
+    }
+
+    .about-img-floid {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    .skills-content {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .skills-content .column {
+        width: 100%;
+        margin: 0.5rem 0;
+    }
+
+    .lang-tech {
+        border: 3px solid #e31b6d;
+        font-size: 1em;
+        padding: 10px;
+
+    }
+
+    .text-intro {
+        margin-top: 1rem;
+        text-align: left;
+    }
+
+    .text-intro h3 {
+        font-size: 22px;
+    }
+
+    .about-img-floid {
+        display: none;
+    }
+
+    .btn-banner {
+        padding: 11px 22px 11px;
+    }
+        .banner-sub-heading {
+    
+            line-height: 2rem;
+          
+        }
+
+}
+
+@media screen and (max-width: 320px) {
+    .about-img {
+        display: none;
+    }
+    .container-flex {
+        padding: 0;
+    }
+
+    .works-content {
+        padding: 0;
+    }
+
+    #skills>div>h3,
+    #services>div>div>h3,
+    .overlay h3 {
+        font-size: 1.5em;
+    }
+
+    .portfolio-sorting li {
+        width: 45% !important;
+    }
+
+    .overlay2 {
+        padding: 0;
+    }
+
+    .btn-banner {
+        font-size: 12px;
+        font-weight: 600;
+        padding: 10px 14px 10px;
+        margin-left: 0.5rem;
+    }
+
+    .serv-content .card i {
+        font-size: 31px;
+    }
+
+    .serv-content .card .text {
+        font-size: 1.2em;
+    }
+
+    .info h3 {
+        font-size: 1.2em;
+    }
+
+    .info span {
+        font-size: 0.7em;
+    }
+
+    .banner-sub-heading {
+        font-size: 1em !important;
+        margin-bottom: 0 !important;
+    }
+
+
+
+
+}
+@media screen and (max-width: 1024px) {
+    .portfolio-sorting li {
+        width: 15%;
+    }
+     .about-img-floid {
+         display: none;
+     }
+     .serv-content {
+         flex-direction: row;
+     }
+
+}
+
+
+
+@media screen and (max-width: 768px) {
+    
+    .navbar-nav .nav-item .nav-link {
+            padding: 1.1em 0.3em !important;
+    }
+    .text-intro {
+        width: 100%;
+    }
+    .container-flex{
+        justify-content: center;
+    }
+    .about-text{
+        font-size: 18px;
+        letter-spacing:0;
+    }
+    .serv-content {
+        flex-direction: row;
+    }
+}
+    
+    @media screen and (max-width: 600px) {
+       .portfolio-sorting li {
+           width: 40%;
+       }
+       .about-text {
+           font-size: 18px;
+           letter-spacing: 0;
+       }
+        .serv-content {
+            flex-direction: column;
+        }
+     
+
+        
+    }
