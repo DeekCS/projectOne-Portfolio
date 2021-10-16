@@ -41,7 +41,7 @@ document.addEventListener("scroll", handleScroll)
 const darkTheme = document.querySelector("#dark-toggle");
 
 darkTheme.addEventListener("click", () => {
-    document.getElementsByTagName("body")[0].classList.toggle("dark-theme");
+    document.body.classList.toggle("dark-theme");
 })
 
 
