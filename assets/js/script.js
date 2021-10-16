@@ -38,15 +38,9 @@ document.addEventListener("scroll", handleScroll)
 
 // Dark Mode
 
-// function darkMode() {
-//   var element = document.body;
-//   element.classList.toggle("dark-mode");
-// }
+const darkTheme = document.querySelector("#dark-toggle");
 
-
-const darkMode = document.querySelector("#dark-toggle");
-
-darkMode.addEventListener("click", () => {
+darkTheme.addEventListener("click", () => {
     document.getElementsByTagName("body")[0].classList.toggle("dark-theme");
 })
 
