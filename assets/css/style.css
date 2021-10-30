@@ -71,10 +71,12 @@ html {
     background-attachment: scroll;
     background-position: center center;
     background-size: cover;
+    height: 100vh;
 }
 
 .overlay {
     background: rgba(11, 14, 18, 0.75);
+    height:100%;
 }
 
 .overlay2 {
@@ -195,14 +197,6 @@ body>main>div>div>div>div>h4>span.kayo-work {
     gap:10%;
     width: 80%;
     margin: auto;
-}
-
-.text-intro {
-    /* color:white; */
-    /* display: flex;
-    flex-direction: column;
-    /* width: 60%; */
-    /* justify-content: center;  */
 }
 
 
