@@ -1,0 +1,190 @@
+/* 9.3 Contact Form */
+.contact-form {
+    background: url("./assets/images/contact.jpg") center bottom no-repeat fixed;
+    background-size: cover;
+    height:100%;
+}
+
+/* .contact-form .kayo-container {
+    padding-bottom: 90px;
+} */
+/* 
+.contact-form .kayo-form {
+    overflow: hidden;
+} */
+
+.contact-form .kayo-form .input-row {
+    margin-right: -3px;
+    margin-left: -3px;
+    overflow: hidden;
+}
+
+.contact-form .kayo-form .input-row .form-group {
+    width: 50%;
+    float: left;
+    padding-right: 3px;
+    padding-left: 3px;
+}
+
+.contact-form .kayo-form .input-row:first-child .form-group:first-child .form-control {
+    border-radius: 15px 0 0 0;
+}
+
+.contact-form .kayo-form .input-row:first-child .form-group:last-child .form-control {
+    border-radius: 0 15px 0 0;
+}
+
+.contact-form .kayo-form .kayo-btn-1 {
+    border-radius: 0 0 15px 15px;
+    overflow: hidden;
+}
+
+.contact-form .kayo-form .form-group {
+    margin-bottom: 6px;
+}
+
+.contact-form .kayo-form .form-control {
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+    outline: none;
+    height: 45px;
+}
+
+.contact-form .kayo-form textarea.form-control {
+    resize: none;
+    height: 100px;
+}
+
+.row{
+    margin: 0 auto;
+}
+
+.contact-c{
+    padding:8rem 0;
+}
+
+.con-form{
+    /* padding:2rem; */
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+
+}
+/* 
+ */
+
+ .contact-form .kayo-form .kayo-btn-1 {
+     border-radius: 0 0 15px 15px;
+     overflow: hidden;
+     color: #fff;
+
+ }
+
+ .text-msg{
+     text-align: center;
+     text-transform: uppercase;
+     color: #fff;
+     font-weight:600;
+     margin-bottom: 2rem;
+ }
+
+ .contact-form .kayo-form .kayo-btn-1:hover{
+     background: #e31b6d;
+    color: #fff;
+     transform: perspective(1px) translateZ(0);
+     transition: all 0.25s ease-in-out 0s;
+
+
+ }
+
+ .kayo-btn-1:hover,
+ .kayo-btn-1:focus,
+ .kayo-btn-1:active {
+     text-decoration: none;
+     outline: none !important;
+     box-shadow: none;
+ }
+
+ .main-bg-rgba,
+ .kayo-btn-1.btn-rgba,
+ .kayo-icon-list-box:hover .kayo-list-info,
+ .contact-form .kayo-form .form-control {
+     background: rgba(44, 62, 80, 0.8);
+ }
+
+
+
+ .btn.focus,
+ .btn:focus,
+ .btn:hover {
+     color: #333;
+     text-decoration: none;
+ }
+
+
+ .btn-block {
+     display: block;
+     width: 100%;
+ }
+
+
+ button,
+ input,
+ select,
+ textarea {
+     font-family: inherit;
+     font-size: inherit;
+     line-height: inherit;
+ }
+
+ button,
+ html input[type=button],
+ input[type=reset],
+ input[type=submit] {
+     -webkit-appearance: button;
+     cursor: pointer;
+ }
+
+ button,
+ select {
+     text-transform: none;
+ }
+
+ button {
+     overflow: visible;
+ }
+
+ button,
+ input,
+ optgroup,
+ select,
+ textarea {
+     margin: 0;
+     font: inherit;
+     color: inherit;
+ }
+
+ * {
+     -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+     box-sizing: border-box;
+ }
+
+
+ .sakura-demo2 {
+     overflow: auto;
+     color: #FFFFFF;
+ }
+
+ body {
+     /* overflow: hidden; */
+     font-family: 'Montserrat', Arial, sans-serif;
+     /* height:100vh; */
+ }
+
+ main{
+     height:100vh;
+ }
+
