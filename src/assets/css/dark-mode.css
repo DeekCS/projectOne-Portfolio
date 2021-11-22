@@ -1,0 +1,94 @@
+    /* dark */
+
+    /* navbar background */
+    .dark-theme .shrink {
+        background-color: #F7F6F9;
+        color: #222222;
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16),
+            0 3px 6px rgba(0, 0, 0, 0.23);
+    }
+
+    .dark-theme .shrink .nav-link {
+        color: #222222;
+    }
+
+    /* overlay */
+
+    .dark-theme .text-intro h3 {
+        color: #8469c7;
+
+    }
+
+    .dark-theme .overlay {
+        background: #3c374861;
+    }
+
+    /* logo */
+    .dark-theme .navbar-brand span {
+        color: #8469c7;
+    }
+
+    .dark-theme .banner-heading {
+        color: #e1e7f1;
+    }
+
+    .dark-theme .banner-sub-heading {
+        color: #8469c7;
+        text-shadow: 1px 1px 2px #f5dcfbfc;
+    }
+
+    .dark-theme .btn1 {
+        background-color: #8469c7;
+        color: #fff !important;
+    }
+
+    .dark-theme .btn1:hover {
+        background-color: #e1e7f1;
+        color: #000 !important;
+    }
+
+    .dark-theme .btn2:hover {
+        background-color: #8469c7;
+        color: #fff !important;
+    }
+
+    .dark-theme .overlay2 {
+        background: #F7F6F9;
+    }
+
+    .dark-theme .about-text {
+        color: #222222;
+    }
+
+    .dark-theme .card {
+        color: #fff;
+        background: #6c677691;
+    }
+
+    .dark-theme .serv-content .card i {
+        color: #c2a9ff;
+    }
+
+    .dark-theme .lang-tech {
+        border: 0.3rem solid #8469c7;
+        color: #222222;
+    }
+
+    .dark-theme .portfolio-sorting li {
+        box-shadow: 0 0 15px 0px #8469c7;
+        background: #8469c7;
+
+    }
+
+    .dark-theme .testimonials::before {
+        background: #6c6c77;
+    }
+
+    .dark-theme .apps-short-info h3 {
+        color: #8469c7;
+    }
+
+    .dark-theme .apps-footer {
+        color: #9ba0a2;
+        background: #e0dde6;
+    }
