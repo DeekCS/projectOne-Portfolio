@@ -27,13 +27,13 @@ html {
     font-size: 25px;
     font-weight: 700;
     letter-spacing: 0.1em;
-    font-family: 'Agustina 400';
+    font-family: 'Agustina 400', sans-serif;
 }
 
 .navbar-brand {
     color: #fff;
     font-size: 25px;
-    font-family: 'Agustina 400';
+    font-family: 'Agustina 400', sans-serif;
     font-weight: 700;
     letter-spacing: 0.1em;
 }
@@ -64,7 +64,7 @@ html {
 }
 
 .banner {
-    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMqc4ysWG42Gb9Yn1tkuORrXr4RRygugs29YfmMK3rpF3YcM1fbf14nCPFdp9HvNhd7S8&usqp=CAU');
+    background-image: url('https://deek.codes/assets/images/works.jpg');
     background-color: rgba(0, 0, 0, 0.4);
     overflow: hidden;
     background-repeat: no-repeat;

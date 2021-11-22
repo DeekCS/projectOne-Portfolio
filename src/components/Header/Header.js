@@ -1,6 +1,7 @@
 import React from 'react';
 // import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 // import '/node_modules/bootstrap/dist/css/bootstrap.min.css'
+import {Link} from "react-router-dom";
 const links = [
   {
     name: 'Home',
@@ -43,9 +44,9 @@ const Header = () => {
                             <ul className="navbar-nav ml-auto">
                                 {links.map(link => (
                                     <li className="nav-item" key={link.name}>
-                                        <a href={link.link} className="nav-link">
+                                        <Link to={link.link} className="nav-link">
                                             {link.name}
-                                        </a>
+                                        </Link>
                                     </li>
                                 ))}
                         </ul>

@@ -64,7 +64,7 @@ html {
 }
 
 .banner {
-    background-image: url('../../../images/works.jpg');
+    background-image: url('../../../public/images/works.jpg');
     background-color: rgba(0, 0, 0, 0.4);
     overflow: hidden;
     background-repeat: no-repeat;
@@ -233,7 +233,7 @@ body>main>div>div>div>div>h4>span.kayo-work {
 .services-img {
     /* width: 100%; */
     /*  */
-    background-image: url('../../../images/bg1.jpg');
+    background-image: url('../../../public/images/bg1.jpg');
     background-color: rgba(0, 0, 0, 0.5);
     opacity: 1;
     overflow: hidden;
@@ -370,7 +370,7 @@ body>main>div>div>div>div>h4>span.kayo-work {
 }
 
 .works-img {
-    background-image: url('../../../images/bg3.jpg');
+    background-image: url('../../../public/images/bg3.jpg');
     background-color: rgba(0, 0, 0, 0.5);
     opacity: 1;
     overflow: hidden;
@@ -673,7 +673,7 @@ body>main>div>div>div>div>h4>span.kayo-work {
 }
 
 .contact-img {
-    background-image: url('../../../images/contact.jpg');
+    background-image: url('../../../public/images/contact.jpg');
     background-color: rgba(0, 0, 0, 0.5);
     opacity: 1;
 
